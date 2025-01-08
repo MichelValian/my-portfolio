@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* globals.css */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+
+:root {
+  --color-background: #ffffee;
+  --color-card: #fdf3dc;
+  --color-text-primary: #4a3a1a;
+  --color-text-secondary: #73613f;
+  --color-text-tertiary: #9b8764;
+  --color-accent: #ecc68b;
+  --color-tecn: #fcf7e8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0A192F;
+    --color-text-primary: #CCD6F6;
+    --color-text-secondary: #8892B0;
+    --color-accent: #d1b561;
+  }
+}
+
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-text-primary);
+}
+
+button {
+  background: transparent;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-background);
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-accent);
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: var(--color-accent);  /* Color para las flechas */
+  font-size: 2rem;
+}
+
