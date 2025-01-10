@@ -41,7 +41,7 @@ export default function Home() {
         {/* Imagen de perfil */}
         <div className="w-40 sm:w-48 md:w-60 lg:w-72 xl:w-80">
           <img
-            src="/images/my-photo.jpeg"  // Asegúrate de colocar la ruta correcta de tu imagen
+            src="/images/my-photo.jpeg" 
             alt="Foto de Michel Navarro"
             className="w-full h-auto rounded-full shadow-lg object-cover"
           />

@@ -16,14 +16,16 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Portafolio de Michel",
+  title: "Michel's portfolio",
   description: "Desarrolladora Front-End",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <head></head>
+      <head>
+       <link rel="icon" href="images/my-photo.jpeg" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {/* Header, navegación, y contenido de la página */}
         <header className="fixed top-0 left-0 w-full bg-[var(--color-background)] text-[var(--color-text-primary)] shadow-md z-50">

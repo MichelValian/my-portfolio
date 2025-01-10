@@ -23,6 +23,7 @@ import {
   SiExpress,
   SiFirebase,
   SiSequelize,
+  SiIonic,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { RiNextjsFill } from "react-icons/ri";
@@ -50,13 +51,13 @@ export default function Skills() {
             icon={<FaReact />}
             label="React"
             color="text-blue-500"
-            level="Expert"
+            level="Intermediate"
           />
           <SkillCard
             icon={<RiNextjsFill />}
             label="Next.js"
             color="text-gray-800"
-            level="Expert"
+            level="Intermediate"
           />
           <SkillCard
             icon={<FaHtml5 />}
@@ -68,7 +69,7 @@ export default function Skills() {
             icon={<DiCss3 />}
             label="CSS"
             color="text-blue-400"
-            level="Expert"
+            level="Intermediate"
           />
           <SkillCard
             icon={<SiTailwindcss />}
@@ -80,18 +81,36 @@ export default function Skills() {
             icon={<DiJsBadge />}
             label="JavaScript"
             color="text-yellow-400"
-            level="Expert"
+            level="Intermediate"
           />
           <SkillCard
             icon={<SiTypescript />}
             label="TypeScript"
             color="text-blue-500"
-            level="Intermediate"
+            level="Beginner"
           />
           <SkillCard
             icon={<FaAngular />}
             label="Angular"
             color="text-red-500"
+            level="Beginner"
+          />
+           <SkillCard
+            icon={<FaBootstrap />}
+            label="Bootstrap"
+            color="text-purple-500"
+            level="Expert"
+          />
+           <SkillCard
+            icon={<SiIonic />}
+            label="Ionic"
+            color="text-blue-400"
+            level="Beginner"
+          />
+          <SkillCard
+            icon={<TbBrandReactNative />}
+            label="React Native"
+            color="text-blue-200"
             level="Intermediate"
           />
           <SkillCard
@@ -101,16 +120,10 @@ export default function Skills() {
             level="Expert"
           />
           <SkillCard
-            icon={<FaBootstrap />}
-            label="Bootstrap"
-            color="text-purple-500"
-            level="Expert"
-          />
-          <SkillCard
             icon={<SiAdobephotoshop />}
             label="Photoshop"
             color="text-blue-900"
-            level="Intermediate"
+            level="Beginner"
           />
         </div>
       </section>
@@ -125,13 +138,13 @@ export default function Skills() {
             icon={<FaNodeJs />}
             label="Node.js"
             color="text-green-500"
-            level="Expert"
+            level="Intermediate"
           />
           <SkillCard
             icon={<SiExpress />}
             label="Express.js"
             color="text-gray-500"
-            level="Intermediate"
+            level="Beginner"
           />
           <SkillCard
             icon={<DiPython />}
@@ -201,6 +214,50 @@ export default function Skills() {
             label="Vercel"
             color="text-white-500"
             level="Intermediate"
+          />
+          <SkillCard
+            icon={
+              <img
+                src="https://clickup.com/images/for-se-page/clickup.png"
+                alt="ClickUp Logo"
+                className="w-12 h-12"
+              />
+            }
+            label="ClickUp"
+            level="Intermediate"
+          />
+          <SkillCard
+            icon={
+              <img
+                src="https://raw.githubusercontent.com/expo/expo/f9daf2b387e5c632248f6cedbaedbc5f07c9bd99/.github/resources/banner.png"
+                alt="Expo Logo"
+                className="w-12 h-12"
+              />
+            }
+            label="Expo"
+            level="Beginner"
+          />
+           <SkillCard
+            icon={
+              <img
+                src="https://cdn-cashy-static-assets.lucidchart.com/app/webroot/favicons/favicon_chart_v5.ico"
+                alt="Lucidchart Logo"
+                className="w-12 h-12"
+              />
+            }
+            label="Lucidchart"
+            level="Beginner"
+          />
+           <SkillCard
+            icon={
+              <img
+                src="https://static-00.iconduck.com/assets.00/marvel-icon-2048x1417-bzexe0pv.png"
+                alt="Marvelapp Logo"
+                className="w-12 h-12"
+              />
+            }
+            label="Marvelapp"
+            level="Beginner"
           />
         </div>
       </section>

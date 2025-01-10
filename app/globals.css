@@ -22,9 +22,13 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: #0A192F;
+    --color-card: #16263e;
     --color-text-primary: #CCD6F6;
     --color-text-secondary: #8892B0;
+    --color-text-tertiary: #99a2bc;
     --color-accent: #d1b561;
+    --color-tecn: #f6ebcc;
+
   }
 }
 
