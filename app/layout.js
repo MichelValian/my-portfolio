@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
-       <link rel="icon" href="images/my-photo.jpeg" />
+       <link rel="icon" href="/my-photo.jpeg" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {/* Header, navegación, y contenido de la página */}
