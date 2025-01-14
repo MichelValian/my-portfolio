@@ -10,7 +10,7 @@ export default function Projects() {
     {
       name: "Online Quiz",
       date: "2024",
-      description: "Online questionnaires website for education.",
+      description: "Website that manages online questionnaires for education.",
       longDescription:
         "Online Quiz is a system designed for the CEEECI that facilitates the management of online exams. This project offers tools for both teachers and students. Teachers can create, edit and manage quizzes, assign them to specific groups and evaluate the results obtained. On the other hand, students can easily access the exams, answer them and obtain feedback on their performance. This system, developed with technologies such as Next.js, React, Material UI, Sequelize and MySQL, provides an intuitive and functional experience for online learning.",
       images: [
@@ -28,11 +28,11 @@ export default function Projects() {
       logo: ["/images/ceeci-school-logo2.png"],
     },
     {
-      name: "SmartDeviceSolutions",
+      name: "SmartDeviceSolutions (web)",
       date: "2023",
       description: "Website that manages service orders for repair or maintenance of electronic devices.",
       longDescription:
-        "Plataforma para gestionar dispositivos inteligentes, con integración a bases de datos y administración de dispositivos en tiempo real.",
+        "The SmartDeviceSolutions project is a web solution designed comprehensively to facilitate the management and administration of repair orders for smart devices. Developed with Next.js and React, the system combines an interactive frontend with an efficient backend, implemented using Sequelize and MySQL for data management. The interface, built with Material UI, offers a modern and friendly user experience. This project is based on the agile Lean Startup method, allowing us to adapt to the client's requirements and optimize the design processes.",
       images: [
         "/images/smart-device1.png",
         "/images/smart-device2.png",
@@ -42,6 +42,26 @@ export default function Projects() {
         "/images/smart-device6.png",
       ],
       technologies: ["Next.js", "React", "Material UI", "MySQL", "Sequelize", "Vercel", "NextAuth", "React Hook Form", "Axios", "JWT", "Nodemailer", "Formidable" ],
+      logo: ["/images/logo-sds.png"],
+    },
+    {
+      name: "SmartDeviceSolutions (mobile)",
+      date: "2023",
+      description: "Mobile application that manages orders for repair or maintenance services for electronic devices.",
+      longDescription:
+        "The mobile version of SmartDeviceSolutions is an application designed to offer a fluid and efficient experience in managing smart devices from anywhere. Developed with React Native and Expo, the application follows the hexagonal architecture, allowing high modularity and scalability to facilitate the integration of new functionalities. I was in charge of making the prototypes of all the interfaces, guaranteeing an intuitive design adapted to the user's needs. In addition, I developed the entire component module, both frontend and backend, ensuring effective integration between both layers.",
+      images: [
+        "/images/smart-device-movil1.png",
+        "/images/smart-device-movil2.png",
+      ],
+      technologies: [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Axios",
+        "JWT",
+        "Hexagonal Architecture"
+      ],
       logo: ["/images/logo-sds.png"],
     },
     {
