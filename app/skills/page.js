@@ -9,7 +9,7 @@ import {
   FaBootstrap,
   FaAngular,
 } from "react-icons/fa";
-import { DiCss3, DiJsBadge, DiMongodb, DiPython } from "react-icons/di";
+import { DiCss3, DiJsBadge, DiMongodb, DiPhp, DiPython } from "react-icons/di";
 import {
   SiTypescript,
   SiAngular,
@@ -150,6 +150,12 @@ export default function Skills() {
             icon={<DiPython />}
             label="Python"
             color="text-blue-400"
+            level="Beginner"
+          />
+           <SkillCard
+            icon={<DiPhp />}
+            label="Php"
+            color="text-purple-600"
             level="Beginner"
           />
           <SkillCard
