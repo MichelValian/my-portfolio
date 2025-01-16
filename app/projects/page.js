@@ -8,6 +8,20 @@ export default function Projects() {
 
   const projects = [
     {
+      name: "Gestor de registros fiscales",
+      date: "2024",
+      description: "A web application for efficient data management.",
+      longDescription:
+        "Gestor de registros fiscales is a lightweight application designed to perform create, read, update and delete operations on a database. Developed with MySQL, PHP with PDO, HTML5, CSS3, JavaScript and AJAX, this system ensures easy interaction and perfect answers. The application features a user-friendly interface and robust validation for each field, ensuring data integrity and avoiding errors during record creation and updating. For example, fields like 'social_reason_name' require input formats. specific, while others validate for empty fields, a maximum of valid character lengths or data types.",
+      images: [
+        "/images/crud-php1.png",
+        "/images/crud-php2.png",
+        "/images/crud-php3.png",
+      ],
+      technologies: ["PHP (PDO)", "MySQL", "JavaScript", "HTML5", "CSS3", "AJAX"],
+      logo: ["/images/crud-php1.png"],
+    },    
+    {
       name: "Online Quiz",
       date: "2024",
       description: "Website that manages online questionnaires for education.",
